@@ -7,6 +7,7 @@ libPhotoEnhance.so
 libQjpeg.so
 libSDKRecognitionText.so
 libSamsungPkcs11Wrapper.so
+libSecEmbms.so
 libSecMMCodec.so
 libandroid_ssrm.so
 libapa_jni.so
