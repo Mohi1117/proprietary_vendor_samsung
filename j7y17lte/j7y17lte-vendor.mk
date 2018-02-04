@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/j7y17lte/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/j7y17lte/proprietary/etc/Tfa9890.cnt:system/etc/Tfa9890.cnt \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
@@ -60,10 +61,34 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7y17lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/j7y17lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/samsung/j7y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
+    vendor/samsung/j7y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsamsungDiamondVoiceExtV2.so:system/lib/libsamsungDiamondVoiceExtV2.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SamsungRec_06003.so:system/lib/lib_SamsungRec_06003.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SamsungVAD_v1009.so:system/lib/lib_SamsungVAD_v1009.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_3Dposition_ver202.so:system/lib/lib_SoundAlive_3Dposition_ver202.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_play_plus__ver127a.so:system/lib/lib_SoundAlive_play_plus__ver127a.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundBooster_ver800.so:system/lib/lib_SoundBooster_ver800.so \
     vendor/samsung/j7y17lte/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/lib/libHpr_RecGAE_cvFeature_v1.0.so:system/lib/libHpr_RecGAE_cvFeature_v1.0.so \
     vendor/samsung/j7y17lte/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
