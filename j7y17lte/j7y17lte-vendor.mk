@@ -83,9 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SamsungRec_06003.so:system/lib/lib_SamsungRec_06003.so \
-    vendor/samsung/j7y17lte/proprietary/lib/lib_SamsungVAD_v1009.so:system/lib/lib_SamsungVAD_v1009.so \
-    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_3Dposition_ver202.so:system/lib/lib_SoundAlive_3Dposition_ver202.so \
-    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_play_plus__ver127a.so:system/lib/lib_SoundAlive_play_plus__ver127a.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_3DPosition_ver202.so:system/lib/lib_SoundAlive_3DPosition_ver202.so \
+    vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_play_plus_ver127a.so:system/lib/lib_SoundAlive_play_plus_ver127a.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib_SoundAlive_SRC384_ver300.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/j7y17lte/proprietary/lib/lib_SoundBooster_ver800.so:system/lib/lib_SoundBooster_ver800.so \
