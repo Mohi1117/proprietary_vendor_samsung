@@ -143,3 +143,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+# Create Mali links for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
+
+$(call inherit-product, vendor/samsung/on7xelte/on7xelte-vendor-blobs.mk)
