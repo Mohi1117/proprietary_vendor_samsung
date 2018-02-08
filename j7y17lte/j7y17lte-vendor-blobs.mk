@@ -145,4 +145,45 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
+#SamsungOMX
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libarac.so:system/lib/libarac.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    vendor/samsung/j7y17lte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf
