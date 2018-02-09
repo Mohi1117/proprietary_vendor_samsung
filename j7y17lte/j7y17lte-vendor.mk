@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j7y17lte/proprietary/bin/rild:system/bin/rild \
+#    vendor/samsung/j7y17lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j7y17lte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libril.so:system/lib/libril.so \
+#    vendor/samsung/j7y17lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
