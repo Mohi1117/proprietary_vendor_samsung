@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
-#SamsungOMX
     vendor/samsung/j7y17lte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
     vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
