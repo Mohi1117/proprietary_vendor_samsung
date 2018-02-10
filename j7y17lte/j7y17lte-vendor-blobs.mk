@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7y17lte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
-    vendor/samsung/j7y17lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j7y17lte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7y17lte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/j7y17lte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/j7y17lte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j7y17lte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/j7y17lte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -106,9 +104,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-foo.so:system/lib/libprotobuf-cpp-foo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -144,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libsomp.so:system/vendor/lib/libsomp.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j7y17lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libPhotoEnhance.so:system/vendor/lib/libPhotoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
