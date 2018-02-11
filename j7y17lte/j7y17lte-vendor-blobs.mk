@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7y17lte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/j7y17lte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/j7y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -105,11 +104,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-foo.so:system/lib/libprotobuf-cpp-foo.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/vendor/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
