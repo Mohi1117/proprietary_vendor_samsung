@@ -107,8 +107,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/vendor/libsec-ril.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
