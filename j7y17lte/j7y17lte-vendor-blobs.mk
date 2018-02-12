@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
