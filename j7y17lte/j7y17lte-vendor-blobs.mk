@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libstr_preview_core.so:system/libstr_preview_core.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstr_preview_core.so:system/lib/libstr_preview_core.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstr_preview_interface.so:system/lib/libstr_preview_interface.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstr_capture_core.so:system/lib/libstr_capture_core.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstr_capture_interface.so:system/lib/libstr_capture_interface.so \
