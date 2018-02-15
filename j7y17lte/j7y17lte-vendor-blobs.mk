@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/j7y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j7y17lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/j7y17lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
@@ -115,6 +114,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstr_preview_core.so:system/libstr_preview_core.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstr_preview_interface.so:system/lib/libstr_preview_interface.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstr_capture_core.so:system/lib/libstr_capture_core.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstr_capture_interface.so:system/lib/libstr_capture_interface.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
